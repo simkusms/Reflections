@@ -1,0 +1,7 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository you tell git to start tacking the files in that directory. This way you can save commits and have them tracked by git.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area means nothing has been finallized yet? But its about to be
