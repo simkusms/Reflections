@@ -4,4 +4,24 @@ When you initialize a repository you tell git to start tacking the files in that
 
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-staging area means nothing has been finallized yet? But its about to be
+staging area means nothing has been finalized yet? But its about to be
+
+3) How can you use the staging area to make sure you have one commit per logical change
+
+Its a setup so that I can see what Ive staged so far
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches would help if I have something thats running but i want to make change without altering the live code.
+
+5) How do the diagrams help you visualize the branch structure?
+
+helps to understand what git log is actually showing 
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+the result is one continuous line of edits. This way its easier to find what changes were made when. And, the changes were made from the same code, altered independently, and brought together so that they dont mess each-other up.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+automatic would be much faster but it may miss somthing I did or did not want changed. But Manually I have much more control but would take much more time. For simple things I trust the computer could do the merge fine.
